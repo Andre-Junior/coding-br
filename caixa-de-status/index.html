@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caixa de status</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
-        <div>
-            <img src="" alt="">
-            <h3></h3>
+
+        <div class="user_container">
+            <img class="photo-profile" src="./img/profile.png" alt="photo-profile">
+            <div class="user_font">
+                <h2 class="user_name">John Doe</h2>
+                <select name="select_publ" id="user_select">
+                    <option value="publico">Público</option> 
+                    <option value="amigos">Amigos</option>
+                    <option value="privado">Privado</option>
+                    <option value="personalizado">Personalizado</option>
+                </select>
+            </div>
+            <img src="./icons/marca-x.svg" alt="" class="user_icon">
         </div>
         <div>
 

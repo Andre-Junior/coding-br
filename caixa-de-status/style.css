@@ -1,3 +1,53 @@
 body {
-    background-color: aqua;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    margin-top: 25%;
+}
+
+.user_container {
+    display: flex;
+    margin-top: 2em;
+    
+}
+
+.user_icon{
+    width: 2em;
+    margin-left: auto;
+    margin-right: 3rem;
+    margin-bottom: 4em;
+    
+}
+
+.photo-profile {
+    margin: 1em;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    margin-left: 3em;
+}
+
+.user_font {
+    font-family: 'Secular One', sans-serif;
+    margin-left: 1em;
+}
+
+#user_select {
+    border: none;
+    font-size: 1em;
+    
+}
+
+.user_name {
+    margin-bottom: 0;
+    margin-top: 1.2em;
+    padding-left: 0.2em;
 }
