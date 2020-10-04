@@ -51,3 +51,19 @@ body {
     margin-top: 1.2em;
     padding-left: 0.2em;
 }
+
+.user_message{
+    display: grid;
+}
+
+#user-text {
+    margin: 1em 2em 0 2em;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.459) ;
+    font-size: 1.5em;
+    text-rendering: none;
+}
+#user-text:focus, #user_select:focus{
+    outline: 0;
+
+}
