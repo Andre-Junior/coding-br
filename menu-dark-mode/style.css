@@ -1,0 +1,43 @@
+html {
+
+    --bg: rgb(240, 123, 211);
+    --bg-menu: #ffffff;
+    --color-font: #666e78;
+    --hover: #0079c0;
+
+}
+
+body{
+    background: var(--bg);
+    margin: 0;
+}
+
+.container {
+    background: var(--bg-menu);
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    border-top: 1px solid var(--color-font);
+    list-style: none;
+}
+
+.logo {
+    margin: 1.5em;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+li {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+li:hover {
+    color: var(--hover);
+    list-style-position: inside;
+    list-style: circle;
+}
