@@ -24,6 +24,13 @@ body{
     border-right: 2px solid #666e7859;
 }
 
+a {
+    text-decoration: none;
+    text-emphasis: none;
+    text-shadow: none;
+    color: var(--color-primary);
+}
+
 ul {
     border-top:  1px solid #666e7859;;
     list-style: none;
@@ -42,8 +49,9 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+a:hover {
     color: var(--hover);
+    fill: var(--hover);
 }
 
 #ul-help {
