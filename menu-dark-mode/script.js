@@ -2,7 +2,6 @@ const html = document.querySelector('html')
 const checkbox = document.querySelector("input[name=theme]")
 
 const getstyle = (element, style) => window.getComputedStyle(element).getPropertyValue(style)
-
 const initialCor = {
     bg: getstyle(html, '--bg'),
     bgMenu: getstyle(html, '--menu'),
@@ -17,12 +16,9 @@ const darkMode = {
     colorPrimary: "#adb4bb",
     hover: "#6dbbea",
     logoPathprimary: "#ffffff"
-
 }
 
-const transformKey = key => 
-    "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
-
+const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
 
 const changeColors = (colors) => {
     Object.keys(colors).map(key => 
