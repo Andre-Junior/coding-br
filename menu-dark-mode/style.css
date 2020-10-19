@@ -4,6 +4,8 @@ html {
     --bg-menu: #ffffff;
     --color-primary: #666e78;
     --hover: #0079c0;
+    --logo-pathprimary: #2A2D77;
+    --logo-path-secondary: #E73953;
 
 }
 
@@ -58,11 +60,21 @@ li:hover {
 path {
     fill: var(--color-primary);
 }
+path:hover {
+    fill: var(--hover);
+}
 
 .icon {
     margin: 0 1rem 0 0.5rem;
 }
  
+.path-01 {
+    fill: var(--logo-pathprimary)
+}
+
+#path-02 {
+    fill: var(--logo-path-secondary)
+}
 
 
 /* TOOGLE */
