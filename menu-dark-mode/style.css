@@ -2,8 +2,7 @@ html {
 
     --bg: #e1e1e2;
     --bg-menu: #ffffff;
-    --color-font: #666e78;
-    --color-icon: #666e78;
+    --color-primary: #666e78;
     --hover: #0079c0;
 
 }
@@ -11,7 +10,7 @@ html {
 body{
     background: var(--bg);
     margin: 0;
-    color: var(--color-font);
+    color: var(--color-primary);
     font-family: 'Mukta', sans-serif;
 }
 
@@ -30,7 +29,7 @@ ul {
 }
 
 .logo {
-    margin: 1.5em;
+    margin: 3em;
     margin-bottom: 0;
     margin-top: 1em;
 }
@@ -43,8 +42,6 @@ li {
 
 li:hover {
     color: var(--hover);
-    /* list-style-position: inside; */
-    list-style: disc;
 }
 
 #ul-help {
@@ -59,26 +56,13 @@ li:hover {
 }
 
 path {
-    fill: var(--color-icon);
+    fill: var(--color-primary);
+}
+
+.icon {
+    margin: 0 1rem 0 0.5rem;
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* TOOGLE */
