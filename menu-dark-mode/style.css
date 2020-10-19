@@ -3,6 +3,7 @@ html {
     --bg: #e1e1e2;
     --bg-menu: #ffffff;
     --color-font: #666e78;
+    --color-icon: #666e78;
     --hover: #0079c0;
 
 }
@@ -55,6 +56,10 @@ li:hover {
     margin-top: 1em;
     cursor: pointer;
 
+}
+
+path {
+    fill: var(--color-icon);
 }
  
 
