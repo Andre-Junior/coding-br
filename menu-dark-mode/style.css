@@ -25,6 +25,7 @@ body{
 ul {
     border-top:  1px solid #666e7859;;
     list-style: none;
+    padding-left: 1em;
 }
 
 .logo {
@@ -41,8 +42,8 @@ li {
 
 li:hover {
     color: var(--hover);
-    list-style-position: inside;
-    list-style: circle;
+    /* list-style-position: inside; */
+    list-style: disc;
 }
 
 #ul-help {
